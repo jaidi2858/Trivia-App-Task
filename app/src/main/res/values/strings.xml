@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Trivia App</string>
+    <string name="field_req">Field Required !!</string>
+    <string name="category_list">Category List</string>
+    <string name="question_list">Question List</string>
+    <string name="trivia">Trivia</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="selection_difficulty">Selection Difficulty</string>
+    <string name="selection_type">Selection Type</string>
+    <string name="submit_quiz">Submit Quiz</string>
+    <string name="sure_to_exit_application">Are you sure to exit from application</string>
+    <string name="alert">Alert!</string>
+    <string name="Result">Result</string>
+
+    <string-array name="question_selection_type">
+        <item>Select Type</item>
+        <item>Multiple Choice</item>
+        <item>True / False</item>
+    </string-array>
+
+    <string-array name="question_difficulty">
+        <item>Select Difficulty</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+</resources>

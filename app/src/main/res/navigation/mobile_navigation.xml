@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/homeFragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.trivia.questions.views.fragments.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_questionListFragment"
+            app:destination="@id/questionListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/questionListFragment"
+        android:name="com.trivia.questions.views.fragments.QuestionListFragment"
+        android:label="QuestionListFragment" >
+
+        <argument android:name="optionType" android:defaultValue="multiple" app:nullable="false" app:argType="string"/>
+        <argument android:name="difficultyLevel" android:defaultValue="easy" app:nullable="false" app:argType="string"/>
+        <argument android:name="category" android:defaultValue="@null" app:nullable="true"
+            app:argType="com.trivia.questions.models.dataModels.generalModels.CategoryModel"/>
+
+    </fragment>
+
+</navigation>

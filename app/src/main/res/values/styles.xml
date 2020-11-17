@@ -1,0 +1,48 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TvNormalStyle">
+        <item name="android:textColor">@color/nav_color_light_black</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+    <style name="DialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="editTextStyle">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_45sdp</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:paddingRight">@dimen/_20sdp</item>
+        <item name="android:paddingBottom">@dimen/_15sdp</item>
+        <item name="android:paddingTop">@dimen/_15sdp</item>
+        <item name="android:paddingLeft">@dimen/_20sdp</item>
+        <item name="hintTextColor">@color/transparent_white</item>
+        <item name="android:layout_marginStart">@dimen/_10sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_10sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_5sdp</item>
+    </style>
+    <style name="AppThemeNoBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="RadioButtonStyle" >
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:textColor">@color/colorDarkGray</item>
+    </style>
+</resources>
